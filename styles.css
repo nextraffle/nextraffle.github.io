@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.switch-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+label[for="themeSwitch"] {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background: linear-gradient(to right, #434343, #000000);
+    color: white;
+}
+
+label[for="themeSwitch"].dark-mode {
+    color: white;
+}
+
+.content-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.form-control {
+    width: 80px;
+    display: inline-block;
+}
+
+button#drawBtn {
+    background-color: #ff5722;
+    border: none;
+    font-size: 1.2rem;
+    width: 46%;
+}
+
+button#drawBtn:hover {
+    background-color: #e64a19;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.col-left-result {
+    padding-bottom: 25px;
+}
+
+#copyBtn {
+    font-size: 0.9rem;
+}
+
+#results {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.result-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: #ff5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden-result {
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.information-cards .card {
+    flex: 1;
+}
+
+.dropdown-menu {
+    padding: 1rem;
+    width: 46%;
+}
+.btn-secondary{
+    width: 46%;
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
