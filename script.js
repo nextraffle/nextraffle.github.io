@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Function to reset the form on the main.html page
 function resetForm() {
-    window.location.href = "main.html";
+    window.location.href = "index.html";
 }
 
 
